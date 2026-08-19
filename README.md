@@ -50,3 +50,5 @@ run_desktop.bat
 
 - Both options use the same MarkItDown conversion path.
 - The tool only processes local files you select or pass in.
+
+Last Updated: 2026-08-19
