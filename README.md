@@ -7,6 +7,12 @@ This repo now has two ways to test the workflow:
 
 ## Install
 
+For the easiest coworker path, download the Windows EXE from the GitHub release:
+
+- [MarkItDown Helper v0.1.0](https://github.com/tn-dept-ag/tda-markitdown-helper/releases/tag/v0.1.0)
+
+If you are running the repo locally:
+
 ```bash
 cd C:\Users\be10cs1\github\tda-git\tda-markitdown-helper
 python -m pip install -r requirements.txt
