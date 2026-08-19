@@ -1,0 +1,6 @@
+MarkItDown Helper test file
+
+This is a plain text file you can use to test the CLI, desktop app, and Streamlit app.
+
+Expected result: the converted Markdown should contain this text.
+
