@@ -22,4 +22,4 @@ if errorlevel 1 exit /b %errorlevel%
 
 echo.
 echo Install complete.
-echo Run run_desktop.bat or run_web.bat next.
+echo Run launch.bat, run_desktop.bat, or run_web.bat next.

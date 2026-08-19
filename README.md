@@ -20,6 +20,8 @@ install_windows.bat
 
 It creates a local `.venv` and installs the required packages.
 
+For coworkers, the simplest starting point is `launch.bat`, which lets them choose between the desktop app and the Streamlit app from one menu.
+
 ## Streamlit web app
 
 ```bash
@@ -27,6 +29,12 @@ streamlit run app.py
 ```
 
 Windows launcher:
+
+```bat
+launch.bat
+```
+
+Direct launcher:
 
 ```bat
 run_web.bat
@@ -43,8 +51,22 @@ Drag-and-drop works when `tkinterdnd2` is available. If it is not installed or s
 Windows launcher:
 
 ```bat
+launch.bat
+```
+
+Direct launcher:
+
+```bat
 run_desktop.bat
 ```
+
+## Package a Desktop EXE
+
+```bat
+build_desktop_exe.bat
+```
+
+This produces `dist\MarkItDownHelper.exe` for coworkers who prefer a double-clickable desktop app instead of launching Python directly.
 
 ## Notes
 
