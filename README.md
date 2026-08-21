@@ -9,12 +9,12 @@ This repo now has two ways to test the workflow:
 
 For the easiest coworker path, download the Windows EXE from the GitHub release:
 
-- [MarkItDown Helper v0.1.1](https://github.com/tn-dept-ag/tda-markitdown-helper/releases/tag/v0.1.1)
+- Download the latest release from the GitHub Releases page.
 
 If you are running the repo locally:
 
 ```bash
-cd C:\Users\be10cs1\github\tda-git\tda-markitdown-helper
+cd C:\path\to\tda-markitdown-helper
 python -m pip install -r requirements.txt
 ```
 
@@ -26,7 +26,7 @@ install_windows.bat
 
 It creates a local `.venv` and installs the required packages.
 
-For coworkers, the simplest starting point is `launch.bat`, which lets them choose between the desktop app and the Streamlit app from one menu.
+The simplest local starting point is `launch.bat`, which lets you choose between the desktop app and the Streamlit app from one menu.
 
 ## Streamlit web app
 
@@ -72,7 +72,7 @@ run_desktop.bat
 build_desktop_exe.bat
 ```
 
-This produces `dist\MarkItDownHelper.exe` for coworkers who prefer a double-clickable desktop app instead of launching Python directly.
+This produces `dist\MarkItDownHelper.exe` for anyone who prefers a double-clickable desktop app instead of launching Python directly.
 
 ## Notes
 
